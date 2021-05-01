@@ -24,4 +24,16 @@ const c = 3;
 //   console.log(`Loop: ${a}`);
 // }
 
+
+// const objectCars = { car1:'audi' , car2:'ford' , car3: 'mazda'};
+// Object.values(objectCars)
+// Object.keys(objectCars)
+
+// Object.entries(objectCars).map(function(car){
+//     const [key , value] = car
+//     return car
+// })
+
+
+
 console.log('Global Scope: ', a, b, c);

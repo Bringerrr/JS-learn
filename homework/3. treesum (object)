@@ -1,0 +1,20 @@
+Разработать «чистую» функцию treeSum, которая пройдется по всему объекту(дереву) и вернет сумму всех чисел:
+
+      [
+          { 
+            name: 'numbers 1',
+            numbers: [1,3,5,'10', { 
+                name: 'nestedNumbers1'
+                numbers: [1,6, true] 
+            }]
+         },
+        {
+            name: 'numbers 2',
+            numbers: [2,4,6,'12', { 
+                name: 'nestedNumbers2'
+                numbers: [1,6, true]
+            }]
+         }
+      ]
+
+      Ответ должен быть 25
