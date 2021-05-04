@@ -1,0 +1,24 @@
+Разработать функцию, которая пройдется по всему объекту(дереву) и вернет следующий реузьтат:
+
+<div>some div value</div><div><span><span>last span value</span></span></div><p>some p value</p>
+
+const sampleDataForHTML = [
+  {
+    type: "div",
+    value: "some div value"
+  },
+  {
+    type: "div",
+    value: {
+      type: "span",
+      value: {
+        type: "span",
+        value: "last span value"
+      }
+    }
+  },
+  {
+    type: "p",
+    value: "some p value"
+  }
+];
